@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper {
+    background: linear-gradient(to bottom, #f5f505, #652c2d);
+    height: 700px;
+    border-style: solid;
+}
+
+#space {
+    height: 40px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.gradient-text {
+    font-size: 70px;
+    background: linear-gradient(to right, #5a93ea, #4c4ad7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.bump {
+    background-image: url("mrbump.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    height: 60px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#field {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.fields {
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fieldDiv {
+    position: relative;
+}
+
+.fieldDiv.hit {
+    background-color: rgba(235, 21, 21, 0.836);
+    transition: background-color 0.3s;
+}
